@@ -1,0 +1,109 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/jskherman/imprecv/main/cv.typ.schema.json
+
+personal:
+  name: Abish Bhusal
+  email: abish.bhusal@gmail.com
+  url: https://abishbhusal.com.np
+  titles:
+    - Backend Software Engineer (Go,Python)
+  location:
+    region: Bagmati
+    city: Kathmandu
+    country: Nepal
+  profiles:
+    - network: LinkedIn
+      username: Abish Bhusal
+      url: https://linkedin.com/in/ankitpaudel20
+    - network: GitHub
+      username: abishz17
+      url: https://github.com/abishz17
+    - network: Url
+      username: abishbhusal
+      url: https://abishbhusal.com.np
+
+work:
+  - organization: Rara Labs Private Limited
+    url: https://raralabs.com
+    location: Onsite / Lalitpur, Nepal
+    positions:
+      - position: Backend Developer 
+        startDate: 2023-04-01
+        endDate: "present"
+        highlights:
+          - "*Backend Development:* - Contributed to the architecture, development, and database management of a highly available, multi-tenant, cloud-native backend for a comprehensive POS and business management SaaS platform."
+          - "*System Architecture & Multi-Tenancy (Go):*
+            - Engineered and maintained a layered backend in Go, enforcing strict separation of concerns to support a scalable, feature-rich system.
+             Implemented and upheld the core multi-tenancy architecture (Shared Database), using request-scoped context to propagate the `organization_id` and ensure absolute data isolation in all database queries and business logic.
+             Designed the asynchronous job processing system for handling resource-intensive background tasks like financial report generation and data synchronization, ensuring high API throughput."
+          - "*Database Engineering & Administration (PostgreSQL):*
+            - Authored and optimized complex SQL queries for the platform's core modules, including accounting, inventory, and reporting, leveraging advanced PostgreSQL features such as CTEs, window functions, and custom aggregates.
+            Tuned performance by analyzing query plans (`EXPLAIN ANALYZE`) and adding indexes to significantly reduce API latency for heavy endpoints.
+             Managed database connection pooling to reliably support thousands of concurrent tenant connections.
+             Built and maintained a zero-downtime schema migration tool, enabling safe, version-controlled database updates.
+             Designed and automated backup and point-in-time recovery strategies to ensure data integrity and disaster readiness."
+      
+
+education:
+  - institution: IOE, Pulchowk Campus , Tribhuvan University
+    url:  https://ioe.edu.np
+    area: Computer Engineering 
+    studyType: Bachelors 
+    startDate: 2018-08-01
+    endDate: 2023-07-01
+    location: Pulchowk, Lalitpur, Nepal
+    courses:
+     - Operating Systems, Theory of Computation, Data Structures and Algorithms, C, OOP using C++, Artificial Intelligence and Machine Learning, Networking, Databases
+    highlights:
+      - "*Major Project*: Developed a Nepali OCR system using Convolutional Recurrent Neural Networks (CRNN) and Long Short-Term Memory (LSTM) networks, achieving 86% accuracy on a custom dataset of handwritten Nepali characters."
+      - "*Extra Curricular*:Python instructor in a software fellowship organized by LOCUS , Organized a competitive programmming hackathon called Yomari CodeCamp, Participated in multiple hackathons in my junior years"
+  - institution: St. Xavier's College 
+    url:  https://sxc.edu.np
+    area: Science 
+    studyType: High School major
+    startDate: 2016-08-01
+    endDate: 2018-07-01
+    location: Maitighar , Kathmandu, Nepal
+    highlights:
+      - "Graduated with Distinction, scoring 3.6/4.0 GPA in Science stream with Physics, Chemistry, and Maths."
+
+certificates:
+  - name: "AWS Academy graduate-AWS Academy Cloud Foundations"
+    date: 2022-09-01
+    issuer: AWS Academy
+    url: https://www.credly.com/badges/3d9fa2d9-df13-4d3a-9d51-a52ff7342798/print
+  - name: "AWS Academy graduate-AWS Academy Cloud Architecting"
+    date: 2021-08-22
+    url: https://www.credly.com/badges/78d1041c-8fe0-4053-bfa7-e81296841d33/linked_in_profile
+    issuer: AWS Academy
+
+publications:
+  - name: CRNN based Nepali OCR
+    publisher: Tribhuvan University
+    releaseDate: 2023-02-19
+    url: https://elibrary.tucl.edu.np/items/1c6b2978-08e9-4208-a521-371442a4d452
+
+skills:
+  - category: Programming
+    skills:
+      - Golang
+      - PostgreSQL
+      - Python
+      - C 
+      - Lua
+  - category: Software Engineering 
+    skills:
+      - Software Infrastrucre
+      - Database Administration
+      - Concurrent Programming
+
+languages:
+  - language: English
+    fluency: Professional working proficiency
+  - language: Nepali
+    fluency: Native proficiency 
+
+interests:
+  - Video Games
+  - Football 
+  - Reading superhero comics
+
