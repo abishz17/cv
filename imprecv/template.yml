@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/jskherman/imprecv/main/cv.typ.schema.json
+# yaml-language-server: ./cv.typ.schema.json
 
 personal:
   name: Abish Bhusal
@@ -13,7 +13,7 @@ personal:
   profiles:
     - network: LinkedIn
       username: Abish Bhusal
-      url: https://linkedin.com/in/ankitpaudel20
+      url: https://www.linkedin.com/in/abish-bhusal-950930258
     - network: GitHub
       username: abishz17
       url: https://github.com/abishz17
