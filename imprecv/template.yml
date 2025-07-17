@@ -75,6 +75,8 @@ certificates:
     date: 2021-08-22
     url: https://www.credly.com/badges/78d1041c-8fe0-4053-bfa7-e81296841d33/linked_in_profile
     issuer: AWS Academy
+  - name: "Winter school in AI"
+    issuer: NAAMI Nepal
 
 publications:
   - name: CRNN based Nepali OCR
