@@ -5,7 +5,7 @@ personal:
   email: abish.bhusal@gmail.com
   url: https://abishbhusal.com.np
   titles:
-    - Backend Software Engineer (Go,Python)
+    - Backend Software Engineer (Go, Python, C++)
   location:
     region: Bagmati
     city: Kathmandu
@@ -22,25 +22,43 @@ personal:
       url: https://abishbhusal.com.np
 
 work:
+  - organization: Nube iO
+    url: https://nube-io.com
+    location: Remote
+    positions:
+      - position: Software Engineer (C++)
+        startDate: 2025-10-01
+        endDate: "present"
+        highlights:
+          - category: "*High-Performance Automation Architecture (C++):*"
+            items:
+              - "Developing a high-performance edge automation engine in C++, utilizing shared memory and Cap'n Proto for zero-copy, ultra-low latency IPC."
+              - "Implemented an event-driven system for real-time state propagation and Change-of-Value (COV) notifications across the core engine."
+              - "Architected a thread-safe, priority-based polling engine with starvation prevention, supporting deterministic data collection from thousands of concurrent field points."
+              - "Built a high-performance Modbus extension in C++ featuring multi-register decoding and real-time state synchronization."
+              - "Designed atomic bulk-operation APIs and a multi-threaded database writer to ensure zero-latency engine performance under heavy industrial loads."
+
   - organization: Rara Labs Private Limited
     url: https://raralabs.com
-    location: Onsite / Lalitpur, Nepal
+    location: Lalitpur, Nepal
     positions:
       - position: Backend Developer 
         startDate: 2023-04-01
-        endDate: "present"
+        endDate: 2025-10-31
         highlights:
-          - "*Backend Development:* - Contributed to the architecture, development, and database management of a highly available, multi-tenant, cloud-native backend for a comprehensive POS and business management SaaS platform."
-          - "*System Architecture & Multi-Tenancy (Go):*
-            - Engineered and maintained a layered backend in Go, enforcing strict separation of concerns to support a scalable, feature-rich system.
-             Implemented and upheld the core multi-tenancy architecture (Shared Database), using request-scoped context to propagate the `organization_id` and ensure absolute data isolation in all database queries and business logic.
-             Designed the asynchronous job processing system for handling resource-intensive background tasks like financial report generation and data synchronization, ensuring high API throughput."
-          - "*Database Engineering & Administration (PostgreSQL):*
-            - Authored and optimized complex SQL queries for the platform's core modules, including accounting, inventory, and reporting, leveraging advanced PostgreSQL features such as CTEs, window functions, and custom aggregates.
-            Tuned performance by analyzing query plans (`EXPLAIN ANALYZE`) and adding indexes to significantly reduce API latency for heavy endpoints.
-             Managed database connection pooling to reliably support thousands of concurrent tenant connections.
-             Built and maintained a zero-downtime schema migration tool, enabling safe, version-controlled database updates.
-             Designed and automated backup and point-in-time recovery strategies to ensure data integrity and disaster readiness."
+          - category: "*System Architecture & Multi-Tenancy (Go):*"
+            items:
+              - "Engineered and maintained a layered backend in Go, enforcing strict separation of concerns to support a scalable, feature-rich accounting system called Tigg."
+              - "Implemented and upheld the core multi-tenancy architecture (Tenant wise database)."
+              - "Designed the asynchronous job processing system for handling resource-intensive background tasks like financial report generation and data synchronization."
+              - "Designed and secured public facing APIs for core modules like accounting, reporting with signature verification, rate limiting, and Redis-based nonce tracking."
+          - category: "*Database Engineering & Administration (PostgreSQL):*"
+            items:
+              - "Authored and optimized complex SQL queries for the platform's core modules, including accounting, inventory, and reporting, leveraging advanced PostgreSQL features such as CTEs, window functions, and custom aggregates."
+              - "Tuned performance by analyzing query plans (`EXPLAIN ANALYZE`) and adding indexes to significantly reduce API latency for heavy endpoints."
+              - "Managed database connection pooling to reliably support thousands of concurrent tenant connections."
+              - "Built and maintained a zero-downtime schema migration tool, enabling safe, version-controlled database updates."
+              - "Designed and automated backup and point-in-time recovery strategies to ensure data integrity and disaster readiness."
       
 
 education:
@@ -89,14 +107,16 @@ skills:
     skills:
       - Golang
       - PostgreSQL
+      - C/C++
       - Python
-      - C 
       - Lua
+      - NATS
   - category: Software Engineering 
     skills:
-      - Software Infrastrucre
+      - Software Infrastructure
+      - Industrial IoT (Modbus)
       - Database Administration
-      - Concurrent Programming
+      - Concurrent Programming & Thread Safety
 
 languages:
   - language: English
@@ -108,4 +128,3 @@ interests:
   - Video Games
   - Football 
   - Reading superhero comics
-
