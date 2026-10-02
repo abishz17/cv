@@ -1,0 +1,56 @@
+personal:
+  name: Abish Bhusal
+  location: Kathmandu, Nepal
+  email: abish.bhusal@gmail.com
+  github: github.com/abishz17
+  linkedin: linkedin.com/in/abishbhusal127
+  site: abishbhusal.com.np
+
+summary: Backend engineer with 3.5 years in Go, happiest on systems problems where concurrency and failure are the hard part.
+
+work:
+  - company: Nube iO
+    title: Software Engineer, Backend
+    location: Remote
+    start: 2025-10
+    end: present
+    highlights:
+      - Designed how devices verify cloud commands (signed NATS requests, replay protection, audit log) and wrote the spec.
+      - Hardened device security with least-privilege access, limiting each plugin to the permissions it declares.
+      - Stopped WebSocket reconnect loops on slow links by coalescing updates per point so clients get the latest value.
+      - Fixed goroutine leaks in NATS subscriptions and made them recover on their own after upstream restarts.
+      - Set up Docker cross-builds for ARM and x86 pinned to an old glibc, so incompatible binaries fail at build time.
+
+  - company: Rara Labs
+    title: Backend Developer
+    location: Lalitpur, Nepal
+    start: 2023-04
+    end: 2025-09
+    highlights:
+      - Scaled the Go backend of Tigg, an accounting SaaS with a database per tenant, to 1,500 businesses in Nepal.
+      - Built a job executor that queues scheduled bank-statement syncs for a worker pool and retries around bank rate limits.
+      - Wrote the PostgreSQL behind financial reports such as income statements, ledgers and statements of account.
+      - Secured the public API with request signatures, rate limiting and single-use nonces.
+      - Mentored junior developers through code review, enforcing idiomatic Go and consistent patterns across the codebase.
+
+skills:
+  - category: Languages
+    items: [Go, Rust, Python, SQL, Bash, Lua]
+  - category: Data
+    items: [PostgreSQL, SQLite, Redis]
+  - category: Messaging & APIs
+    items: [NATS, REST, WebSocket, OpenAPI, JWT]
+  - category: Systems
+    items: [Linux, systemd, Docker, nginx, GitHub Actions]
+
+education:
+  - institution: IOE, Pulchowk Campus, Tribhuvan University
+    degree: B.E. in Computer Engineering
+    location: Lalitpur, Nepal
+    start: 2018-08
+    end: 2023-07
+    highlights:
+      - text: "Final-year project: Nepali handwriting OCR (CRNN with LSTM), 86% accuracy."
+        url: https://elibrary.tucl.edu.np/items/1c6b2978-08e9-4208-a521-371442a4d452
+        urltext: Report
+      - Taught Python at the LOCUS fellowship and organized Yomari CodeCamp, a competitive programming contest.
